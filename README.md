@@ -50,7 +50,6 @@ Mission: Building practical, data-driven AI systems and turning complex data int
 
 - 🎓 **Undergraduate AI & ML Student** at **Sanjivani University**, dedicated to machine learning and intelligent software engineering.
 - 🧠 Focused on **predictive modeling**, **deep neural networks**, and **data-driven problem solving**.
-- 🛠️ Currently developing the **[Smart Library Management System](https://github.com/khaireom007/Smart-library-management-system)** and prototyping machine learning pipelines.
 - 🎯 Committed to continuous technical growth, disciplined software practices, and open-source collaboration.
 
 ---
@@ -66,28 +65,6 @@ Mission: Building practical, data-driven AI systems and turning complex data int
 | **Tools & Platforms** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=google-colab&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /> |
 
 </div>
-
----
-
-## 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/khaireom007/Smart-library-management-system">Smart Library Management System</a></h3>
-      <p>An automated management system designed to streamline book cataloging, issuing/returns, inventory tracking, and student database operations.</p>
-      <p><b>Tech:</b> <code>Python</code> · <code>Database Management</code> · <code>Automation</code></p>
-      <p><a href="https://github.com/khaireom007/Smart-library-management-system"><b>View Repository →</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 ML Model Evaluation Benchmark</h3>
-      <p><i>(In Development)</i> A comparative evaluation framework benchmarking machine learning algorithms across standardized classification and regression datasets.</p>
-      <p><b>Tech:</b> <code>Python</code> · <code>Scikit-Learn</code> · <code>Pandas</code> · <code>Matplotlib</code></p>
-      <p><code>Active Prototyping</code></p>
-    </td>
-  </tr>
-</table>
-
 
 ---
 
