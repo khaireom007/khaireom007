@@ -10,18 +10,25 @@
   <img src="./assets/om-khaire-hero.svg" alt="Om Khaire - Artificial Intelligence & Machine Learning Student Banner" width="100%" />
 </a>
 
-<br/><br/>
+<br/>
 
-<!-- PRIMARY IDENTITY HEADER -->
-<h1>OM KHAIRE</h1>
-
+<!-- QUICK CONNECT ACTION BAR -->
 <p>
-  <b>B.Tech — Artificial Intelligence &amp; Machine Learning</b><br/>
-  <b>Sanjivani University</b>
-</p>
-
-<p>
-  <i>Building intelligent systems. Exploring machine learning. Turning data into insight.</i>
+  <!-- Verified LinkedIn Profile -->
+  <a href="https://www.linkedin.com/in/om-khaire-340790379" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%92-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  </a>
+  &nbsp;&nbsp;
+  <!-- Verified GitHub Profile -->
+  <a href="https://github.com/khaireom007" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-Follow%20%E2%86%92-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+  </a>
+  &nbsp;&nbsp;
+  <!-- Editable Email Link Placeholder -->
+  <!-- TO USER: Replace 'your.email@example.com' with your active email address -->
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 <!-- IDENTITY BADGES STRIP -->
@@ -31,25 +38,6 @@
   <img src="https://img.shields.io/badge/Focus-Machine_Learning-111827?style=flat-square&logo=scikit-learn&logoColor=39E6A5" alt="Machine Learning" />
   <img src="https://img.shields.io/badge/Focus-Deep_Learning-111827?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="Deep Learning" />
   <img src="https://img.shields.io/badge/Open_Source-Contributor-39E6A5?style=flat-square&logo=github&logoColor=080B12" alt="Open Source" />
-</p>
-
-<!-- QUICK CONNECT ACTION BAR -->
-<p>
-  <!-- Verified LinkedIn Profile -->
-  <a href="https://www.linkedin.com/in/om-khaire-340790379" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%92-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
-  </a>
-  &nbsp;
-  <!-- Verified GitHub Profile -->
-  <a href="https://github.com/khaireom007" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/GitHub-Follow%20%E2%86%92-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-  </a>
-  &nbsp;
-  <!-- Editable Email Link Placeholder -->
-  <!-- TO USER: Replace 'your.email@example.com' with your active email address -->
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
 </p>
 
 <img src="./assets/neural-divider.svg" alt="Section Divider" width="100%" />
