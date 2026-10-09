@@ -88,40 +88,6 @@ Mission: Building practical, data-driven AI systems and turning complex data int
   </tr>
 </table>
 
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <img 
-          src="https://github-readme-stats.vercel.app/api?username=khaireom007&show_icons=true&theme=tokyonight&hide_border=false&bg_color=080B12&title_color=7C5CFF&text_color=A7B1C5&icon_color=00D9FF&border_color=273247" 
-          alt="GitHub Stats" 
-          width="100%" 
-        />
-      </td>
-      <td align="center" width="50%">
-        <img 
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=khaireom007&layout=compact&theme=tokyonight&hide_border=false&bg_color=080B12&title_color=7C5CFF&text_color=A7B1C5&icon_color=00D9FF&border_color=273247" 
-          alt="Top Languages" 
-          width="100%" 
-        />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" colspan="2">
-        <br/>
-        <img 
-          src="https://streak-stats.demolab.com/?user=khaireom007&theme=dark&background=080B12&border=273247&stroke=273247&ring=7C5CFF&fire=00D9FF&currStreakNum=F4F7FF&sideNums=A7B1C5&currStreakLabel=7C5CFF&sideLabels=A7B1C5&dates=A7B1C5" 
-          alt="Streak Stats" 
-          width="95%" 
-        />
-      </td>
-    </tr>
-  </table>
-</div>
 
 ---
 
