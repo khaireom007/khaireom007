@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#0D1220"/>
+      <stop offset="100%" stop-color="#07090F"/>
+    </linearGradient>
+
+    <!-- Accent Glow Gradients -->
+    <radialGradient id="violet-glow" cx="20%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#7C5CFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyan-glow" cx="80%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#00D9FF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="emerald-glow" cx="50%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#39E6A5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#39E6A5" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#F0F4FF"/>
+      <stop offset="80%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#7C5CFF"/>
+    </linearGradient>
+
+    <linearGradient id="cyan-violet-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.1"/>
+      <stop offset="30%" stop-color="#7C5CFF"/>
+      <stop offset="70%" stop-color="#00D9FF"/>
+      <stop offset="100%" stop-color="#39E6A5" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141B2D" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0F1424" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Neural Connection Gradients -->
+    <linearGradient id="synapse-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00D9FF" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="synapse-2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#39E6A5" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#273247" stroke-width="0.75" stroke-opacity="0.45"/>
+      <circle cx="40" cy="0" r="1" fill="#7C5CFF" fill-opacity="0.3"/>
+    </pattern>
+
+    <!-- Sub-grid Pattern -->
+    <pattern id="dot-grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="0.5" fill="#A7B1C5" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="380" fill="url(#bg-grad)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#grid)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#violet-glow)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#cyan-glow)" rx="16"/>
+  <rect width="1200" height="380" fill="url(#emerald-glow)" rx="16"/>
+
+  <!-- Border & Corner Tech Brackets -->
+  <rect x="12" y="12" width="1176" height="356" fill="none" stroke="#273247" stroke-width="1.2" stroke-opacity="0.8" rx="12"/>
+  
+  <!-- High-tech Corner Accents -->
+  <path d="M 12 40 L 12 12 L 40 12" fill="none" stroke="#7C5CFF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1188 40 L 1188 12 L 1160 12" fill="none" stroke="#00D9FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 12 340 L 12 368 L 40 368" fill="none" stroke="#00D9FF" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1188 340 L 1188 368 L 1160 368" fill="none" stroke="#39E6A5" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Top System Telemetry Bar -->
+  <g id="telemetry-bar" transform="translate(36, 34)">
+    <!-- Status Pill -->
+    <rect x="0" y="0" width="146" height="24" rx="12" fill="url(#badge-grad)" stroke="#273247" stroke-width="1"/>
+    <circle cx="14" cy="12" r="4" fill="#39E6A5">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="26" y="16" fill="#39E6A5" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">SYSTEM ONLINE</text>
+
+    <!-- Lab Tag -->
+    <text x="164" y="16" fill="#7C5CFF" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="1.5">AI_RESEARCH_LAB // V4.8</text>
+    <text x="350" y="16" fill="#4B5875" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="500">|</text>
+    <text x="368" y="16" fill="#A7B1C5" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="1">SANJIVANI UNIVERSITY</text>
+
+    <!-- Right Side Metric Indicators -->
+    <text x="960" y="16" fill="#A7B1C5" font-family="'Courier New', monospace" font-size="10" letter-spacing="1">LATENCY: 12ms</text>
+    <text x="1062" y="16" fill="#00D9FF" font-family="'Courier New', monospace" font-size="10" letter-spacing="1">EPOCH: 2026.1</text>
+  </g>
+
+  <!-- Divider Line Below Telemetry -->
+  <line x1="36" y1="68" x2="1164" y2="68" stroke="url(#cyan-violet-line)" stroke-width="1.2"/>
+
+  <!-- Neural Network Visual Art (Right Section: 760 -> 1160) -->
+  <g id="neural-matrix" transform="translate(730, 75)">
+    <!-- Circuit & Synapse lines -->
+    <path d="M 60 70 Q 150 40 240 100 T 400 60" fill="none" stroke="url(#synapse-1)" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <path d="M 60 140 Q 140 170 230 110 T 390 150" fill="none" stroke="url(#synapse-2)" stroke-width="1.2"/>
+    <path d="M 60 210 Q 170 190 250 230 T 400 200" fill="none" stroke="url(#synapse-1)" stroke-width="1.4" stroke-dasharray="6,3"/>
+    <path d="M 120 40 L 230 110 L 320 70 L 400 130" fill="none" stroke="#7C5CFF" stroke-opacity="0.25" stroke-width="1"/>
+    <path d="M 120 230 L 230 110 L 320 210 L 400 130" fill="none" stroke="#00D9FF" stroke-opacity="0.25" stroke-width="1"/>
+
+    <!-- Layer 1 Nodes (Input) -->
+    <circle cx="60" cy="70" r="5" fill="#0D1220" stroke="#7C5CFF" stroke-width="2"/>
+    <circle cx="60" cy="70" r="2" fill="#7C5CFF"/>
+    
+    <circle cx="60" cy="140" r="6" fill="#0D1220" stroke="#00D9FF" stroke-width="2"/>
+    <circle cx="60" cy="140" r="2.5" fill="#00D9FF"/>
+
+    <circle cx="60" cy="210" r="5" fill="#0D1220" stroke="#7C5CFF" stroke-width="2"/>
+    <circle cx="60" cy="210" r="2" fill="#7C5CFF"/>
+
+    <!-- Layer 2 Nodes (Hidden 1) -->
+    <circle cx="150" cy="40" r="4" fill="#0D1220" stroke="#39E6A5" stroke-width="1.5"/>
+    <circle cx="150" cy="110" r="7" fill="#0D1220" stroke="#7C5CFF" stroke-width="2.5"/>
+    <circle cx="150" cy="110" r="3" fill="#7C5CFF"/>
+    <circle cx="150" cy="180" r="4.5" fill="#0D1220" stroke="#00D9FF" stroke-width="1.5"/>
+    <circle cx="150" cy="245" r="4" fill="#0D1220" stroke="#7C5CFF" stroke-width="1.5"/>
+
+    <!-- Layer 3 Nodes (Hidden 2 / Attention) -->
+    <circle cx="240" cy="70" r="6" fill="#0D1220" stroke="#00D9FF" stroke-width="2"/>
+    <circle cx="240" cy="70" r="2.5" fill="#00D9FF"/>
+    
+    <circle cx="240" cy="145" r="8" fill="#0D1220" stroke="#7C5CFF" stroke-width="3"/>
+    <circle cx="240" cy="145" r="3.5" fill="#FFFFFF"/>
+    
+    <circle cx="240" cy="220" r="5" fill="#0D1220" stroke="#39E6A5" stroke-width="1.8"/>
+
+    <!-- Layer 4 Nodes (Output & Latent) -->
+    <circle cx="330" cy="90" r="5.5" fill="#0D1220" stroke="#7C5CFF" stroke-width="2"/>
+    <circle cx="330" cy="165" r="7" fill="#0D1220" stroke="#00D9FF" stroke-width="2.5"/>
+    <circle cx="330" cy="165" r="3" fill="#00D9FF"/>
+
+    <!-- Output Sink Node -->
+    <circle cx="410" cy="130" r="9" fill="#0D1220" stroke="#39E6A5" stroke-width="3"/>
+    <circle cx="410" cy="130" r="4" fill="#39E6A5"/>
+
+    <!-- Floating Mathematical Formulas & Tensor Shapes -->
+    <g font-family="'Courier New', monospace" font-size="10" fill="#A7B1C5" opacity="0.65">
+      <text x="30" y="25">f(x) = σ(Wᵀx + b)</text>
+      <text x="210" y="28">dim: [B, S, d_model]</text>
+      <text x="140" y="270">∇_θ L(y, ŷ) ↦ 0</text>
+      <text x="280" y="250">Softmax(QKᵀ / √d)</text>
+      <text x="330" y="45">loss: 0.0024</text>
+    </g>
+
+    <!-- Coordinate Reticles -->
+    <path d="M 235 145 L 245 145 M 240 140 L 240 150" stroke="#00D9FF" stroke-width="1"/>
+    <path d="M 405 130 L 415 130 M 410 125 L 410 135" stroke="#39E6A5" stroke-width="1"/>
+  </g>
+
+  <!-- Left Main Content Area -->
+  <g transform="translate(56, 110)">
+    <!-- Overline Focus Label -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="224" height="22" rx="4" fill="#111827" stroke="#273247" stroke-width="1"/>
+      <text x="10" y="15" fill="#00D9FF" font-family="'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1.5">INIT: PORTFOLIO_V2.0</text>
+      <text x="178" y="15" fill="#39E6A5" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">● LIVE</text>
+    </g>
+
+    <!-- Main Dominant Name: OM KHAIRE -->
+    <text x="0" y="80" fill="url(#name-grad)" font-family="'Segoe UI', -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="4">OM KHAIRE</text>
+
+    <!-- Role / Specialization Subtitle -->
+    <g transform="translate(2, 115)">
+      <text x="0" y="0" fill="#F4F7FF" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">
+        B.TECH IN ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING
+      </text>
+      <text x="0" y="25" fill="#7C5CFF" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="15" font-weight="600" letter-spacing="1">
+        SANJIVANI UNIVERSITY
+      </text>
+      <text x="172" y="25" fill="#4B5875" font-family="'Segoe UI', sans-serif" font-size="15">•</text>
+      <text x="188" y="25" fill="#A7B1C5" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="14" font-weight="500">
+        Aspiring AI/ML Engineer &amp; Intelligent Systems Builder
+      </text>
+    </g>
+
+    <!-- Core Tagline Strip -->
+    <text x="2" y="172" fill="#8F9BB3" font-family="'Georgia', serif" font-style="italic" font-size="14" letter-spacing="0.5">
+      "Building intelligent systems. Exploring machine learning. Turning data into insight."
+    </text>
+
+    <!-- Core Pillar Chips -->
+    <g transform="translate(0, 196)">
+      <!-- Chip 1: Machine Learning -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="140" height="28" rx="6" fill="#111827" stroke="#7C5CFF" stroke-width="1.2" stroke-opacity="0.8"/>
+        <circle cx="14" cy="14" r="3.5" fill="#7C5CFF"/>
+        <text x="26" y="18" fill="#F4F7FF" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600">Machine Learning</text>
+      </g>
+
+      <!-- Chip 2: Deep Learning -->
+      <g transform="translate(150, 0)">
+        <rect x="0" y="0" width="124" height="28" rx="6" fill="#111827" stroke="#00D9FF" stroke-width="1.2" stroke-opacity="0.8"/>
+        <circle cx="14" cy="14" r="3.5" fill="#00D9FF"/>
+        <text x="26" y="18" fill="#F4F7FF" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600">Deep Learning</text>
+      </g>
+
+      <!-- Chip 3: Neural Networks -->
+      <g transform="translate(284, 0)">
+        <rect x="0" y="0" width="138" height="28" rx="6" fill="#111827" stroke="#39E6A5" stroke-width="1.2" stroke-opacity="0.8"/>
+        <circle cx="14" cy="14" r="3.5" fill="#39E6A5"/>
+        <text x="26" y="18" fill="#F4F7FF" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600">Neural Networks</text>
+      </g>
+
+      <!-- Chip 4: Data Engineering -->
+      <g transform="translate(432, 0)">
+        <rect x="0" y="0" width="138" height="28" rx="6" fill="#111827" stroke="#273247" stroke-width="1.2"/>
+        <circle cx="14" cy="14" r="3.5" fill="#A7B1C5"/>
+        <text x="26" y="18" fill="#A7B1C5" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="600">Data &amp; Systems</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Visual Accent Bar -->
+  <line x1="36" y1="352" x2="1164" y2="352" stroke="#273247" stroke-width="1" stroke-opacity="0.5"/>
+  <rect x="56" y="350" width="180" height="4" rx="2" fill="url(#cyan-violet-line)"/>
+</svg>

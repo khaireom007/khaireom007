@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="sig-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="100%" stop-color="#0F1424"/>
+    </linearGradient>
+    <linearGradient id="sig-text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9FF"/>
+      <stop offset="50%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#39E6A5"/>
+    </linearGradient>
+    <pattern id="sig-dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="0.75" fill="#273247" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="2" y="2" width="756" height="116" rx="12" fill="url(#sig-bg)" stroke="#273247" stroke-width="1"/>
+  <rect x="2" y="2" width="756" height="116" rx="12" fill="url(#sig-dots)"/>
+
+  <!-- Left Accent Bracket -->
+  <path d="M 24 35 L 14 35 L 14 85 L 24 85" fill="none" stroke="#7C5CFF" stroke-width="1.8"/>
+
+  <!-- Quote Lines -->
+  <text x="380" y="44" text-anchor="middle" fill="#F4F7FF" font-family="'Georgia', serif" font-style="italic" font-size="15" letter-spacing="0.4">
+    "Curiosity drives the questions. Mathematics shapes the models."
+  </text>
+  <text x="380" y="68" text-anchor="middle" fill="url(#sig-text-grad)" font-family="'Segoe UI', -apple-system, sans-serif" font-weight="700" font-size="16" letter-spacing="1">
+    Engineering brings intelligence to life.
+  </text>
+  <text x="380" y="94" text-anchor="middle" fill="#A7B1C5" font-family="'Courier New', monospace" font-size="11" letter-spacing="2">
+    — OM KHAIRE • AI &amp; ML SYSTEMS
+  </text>
+
+  <!-- Right Accent Bracket -->
+  <path d="M 736 35 L 746 35 L 746 85 L 736 85" fill="none" stroke="#00D9FF" stroke-width="1.8"/>
+</svg>
